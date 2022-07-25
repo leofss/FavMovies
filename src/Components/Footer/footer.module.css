@@ -1,0 +1,20 @@
+footer{
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.icons{
+    margin: 0 auto;
+}
+
+.icons i{
+    padding: 0.3em;
+    font-size: 40px;
+    cursor: pointer;
+    color: white;
+}
+
+.txt{
+    margin: 0 auto;
+}
