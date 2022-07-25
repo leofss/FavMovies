@@ -5,7 +5,7 @@ const Footer = () =>{
     return(
     <footer className={styles.footer}>
         <div className={styles.txt}>
-            <p> desenvolvido por Leonardo Fernandes Soares</p>
+            <p> By Leonardo Fernandes Soares</p>
         </div>
         <div className={styles.icons}>
             <a href="https://www.github.com/leofss"><i className="bi bi-github"></i></a>

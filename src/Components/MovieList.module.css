@@ -1,0 +1,17 @@
+.section ul li img{
+    height: 90px;
+}
+
+.movie{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin-top: 10px;
+    border-bottom: 2px solid white;
+}
+
+.desc{
+    padding-bottom: 7px;
+}

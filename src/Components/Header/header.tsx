@@ -1,9 +1,15 @@
 import React from 'react';
 
+//Styles 
+import styles from "./header.module.css"
+
 const Header = () => {
     return(
         <header>
-            <h1>Meus filmes favoritos</h1> 
+            <nav className={styles.nav}>
+                <h1> My Favorite Movies API </h1>
+                <h2> Developed with React + Node + TS</h2>
+            </nav>
        </header>
     )
 }
